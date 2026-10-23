@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/interactive-instruments-gmbh/integrations
+- https://n8n.io/integrations/interactive-instruments-gmbh/
+- https://composio.dev/toolkits/interactive-instruments-gmbh
+- https://monid.ai/tools/interactive-instruments-gmbh
+checked:
+- https://composio.dev/toolkits/interactive-instruments-gmbh
+- https://monid.ai/tools/interactive-instruments-gmbh
+- https://n8n.io/integrations/interactive-instruments-gmbh/
+- https://zapier.com/apps/interactive-instruments-gmbh/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

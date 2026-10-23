@@ -1,23 +1,59 @@
 aid: interactive-instruments-gmbh
+
 name: interactive instruments GmbH
-description: 'interactive instruments GmbH is a company surfaced via the API Evangelist harvest backlog
-  (source: vc-portfolio) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'interactive instruments GmbH provides software solutions for geospatial data infrastructures, offering web APIs and adhering to open standards. Based in Bonn, Germany, the company focuses on enabling efficient data exchange and integration for environmental monitoring, research, and public services. Their portfolio includes tools for data collection, processing, and visualization, supporting both public and private sector projects.'
+
 url: https://raw.githubusercontent.com/api-evangelist/interactive-instruments-gmbh/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- Geospatial
+- DataInfrastructure
+- OpenStandards
+- Software
+- Bonn
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/interactive-instruments-gmbh-hosts.yml
+- type: DomainSecurity
+  url: security/interactive-instruments-gmbh-domain-security.yml
 - type: Website
   url: http://www.interactive-instruments.de
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The provider's website offers HTML documentation but no machine‑readable OpenAPI, GraphQL, or other contract files were found.
+  evidence:
+    - url: https://www.interactive-instruments.de
+      status: 200
+  checked: '2026-10-23'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
